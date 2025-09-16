@@ -7,7 +7,7 @@ root.title("VLC Player")
 instance = vlc.Instance()
 player = instance.media_player_new()
 
-media = instance.media_new("Basler_boA8100-16cc__40578090__20250813_172842739.mp4")
+media = instance.media_new("Basler_boA8100-16cc__40578090__20250815_164944800.mp4")
 player.set_media(media)
 
 # Video frame
